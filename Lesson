@@ -1,0 +1,7 @@
+#week 2A
+
+print('"I can do everything Nothing Impossible"')
+print("'I can do everything Nothing Impossible'")
+
+x="Hello World!"
+print(x)

@@ -1,0 +1,9 @@
+pip
+
+
+pip --version  //vesion check
+pip install   //Pip installation
+python -m pip install --upgrade pip --user  //pip upgrade
+--user   //user permission
+pip install numpy   //numpy install
+pip install black  //
