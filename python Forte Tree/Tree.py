@@ -2,12 +2,12 @@ import random
 import turtle
 
 def tree(size,myTurtle):
-    myTurtle.pensize(size / 20)
+    myTurtle.pensize(size / 10)
 
-    if size < random.randint(2,3) * 20:
-        myTurtle.color("green")
+    if size < random.randint(1,2) * 10:
+        myTurtle.color("#24f2c6")
     else:
-        myTurtle.color("blue")
+        myTurtle.color("#bd6035")
 
     if size > 5:
         myTurtle.forward(size)
@@ -31,5 +31,5 @@ myTurtle.penup()
 myTurtle.setpos(0,-250)
 myTurtle.pendown()
 
-tree(120, myTurtle)
+tree(170, myTurtle)
 window.exitonclick()
